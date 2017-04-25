@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlSelectPhoto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:focusable="false">
+
+    <ImageView
+        android:id="@+id/ivShowSelectPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_load_photo_default" />
+
+    <ImageView
+        android:id="@+id/ivStatesSelectPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:padding="5dp"
+        android:src="@drawable/icon_photo_states_normal" />
+</RelativeLayout>

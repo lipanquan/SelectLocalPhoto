@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JZGSelectLocalPhotoLib</string>
+    <string name="back">返回</string>
+    <string name="ok">确定</string>
+</resources>
