@@ -41,7 +41,7 @@ public class MainActivity extends Activity {
                     }
                 });
 
-        findViewById(R.id.tv).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btnSelectPhoto).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivityForResult(new Intent(MainActivity.this, SelectPhotoActivity.class), 101);
